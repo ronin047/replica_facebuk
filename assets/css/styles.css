@@ -1,0 +1,223 @@
+:root{
+    --ms-progress-appearance: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    --color-FB-inicio: #3877f2;
+    --color-NC-FB: #42b72a;
+    --color-BG-gris: #f0f2f5;
+    --color: #fff;
+    --color: #000;
+    --color-FB-hover: #166fe5;
+
+
+
+
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+/* section1 */
+.contenedor{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    align-items: center;
+    /* margin: 20px 20px; */
+    padding: 60px;
+    background-color: #f0f2f5;
+    border: 1px;
+    border-radius: 6px;
+    
+    
+}
+.section1{
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    grid-area: 10px;
+    margin-left: 15%;
+    background-color: #f0f2f5;
+    
+
+}
+.section1 img{
+    width: 300px;
+    height: 106.1px;
+    margin: 0 20px ;
+}
+
+.texto1{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+
+
+/* SECTION 2 */
+.section2{
+    display:flex;
+    justify-content: center;
+    width: 396px;
+    height: 349.34px;
+    border-color: rgba(0, 0, 0, 0.316);
+    border-radius: 6px;
+    background-color: #fff;
+    margin: 20px;
+    margin-right: 5%;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 0.5px solid;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+
+
+}
+.mailContainer{
+    width: 400px;
+    height: 52px;
+    color:#000;
+    font-size: 1.3rem;
+    border: 1px solid;
+    border-color: gray;
+    border-radius: 6px;
+    margin: 13px;
+}
+input[type=email]{
+    padding-left: 20px;
+}
+
+.pwd{
+    width: 400px;
+    height: 52px;
+    color:#000;
+    font-size: 1.3rem;
+    border: 1px;
+    border: 1px solid;
+    border-color: gray;
+    border-radius: 6px;
+    margin: 13px;
+}
+input[type=password]{
+    padding-left: 20px;
+}
+
+
+.btn-inicio{
+    width: 400px;
+    height: 52px;
+    background-color:#3877f2;
+    color: #fff;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 200ms;
+    margin: 13px;
+    
+}
+.redem{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0 10px 0;
+    align-items: center;
+}
+.hr_box{
+    margin: 0 20px;
+}
+.btn-NewAccount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(100px);
+    width: 200px;
+    height: 52px;
+    background-color:#42b72a;
+    color: #fff;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 200ms;
+    margin: 13px;
+    
+}
+
+.Celebrity{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    transform: translateX(432px);
+    font: var(--ms-progress-appearance);
+    margin: 28px 0 0;
+
+}
+
+.foot-air{
+    width: 980px;
+    height: 137.32px;
+
+}
+.list-inter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #8A8D91;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    width: 980px;
+    height: 137px;
+    margin: -50px 0 -50px 93px; 
+    padding: 6px 20px;  
+}
+.list-inter li{
+    display: flex;
+    margin: 0 -10px;
+    
+}
+.btn-plus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr_inter_list{
+    width: 1000px;
+    margin-left: 120px;
+}
+
+.app_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1000px;
+    height: 57px;
+    margin: 1% 120px;
+    max-width:100%;
+    padding: 6px 20px;
+}
+
+
+
+.app_list li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8A8D91;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    margin-right: 4%;
+    
+}
