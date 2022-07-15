@@ -25,7 +25,6 @@
     display: grid;
     grid-template-columns: 55% 45%;
     align-items: center;
-    /* margin: 20px 20px; */
     padding: 60px;
     background-color: #f0f2f5;
     border: 1px;
@@ -154,6 +153,7 @@ input[type=password]{
     
 }
 
+/* creacion cuenta celebrity o pro */
 .Celebrity{
     display: flex;
     justify-content:right;
@@ -164,6 +164,7 @@ input[type=password]{
 
 }
 
+/* footer idiomas y app */
 .foot-air{
     width: 980px;
     height: 137.32px;
